@@ -1,0 +1,71 @@
+--CREATE TABLE employee (
+--	id SERIAL PRIMARY KEY,
+--	name VARCHAR(50) NOT NULL,
+--	birthday DATE,
+--	email VARCHAR(100));
+
+--INSERT INTO employee(name, birthday, email)
+--VALUES
+--	('ali', '27.03.1999', 'babacan2525@gmail.com')
+--insert into employee (name, birthday, email) values ('Merwyn', '13.06.1999', 'mvallantine0@yandex.ru');
+--insert into employee (name, birthday, email) values ('Haskel', '05.08.1994', 'habdey1@mac.com');
+--insert into employee (name, birthday, email) values ('Alison', '25.03.1994', 'adignam2@livejournal.com');
+--insert into employee (name, birthday, email) values ('Wyatan', '18.03.1997', 'wfearne3@canalblog.com');
+--insert into employee (name, birthday, email) values ('Kenneth', '08.03.2000', 'kburbank4@wikimedia.org');
+--insert into employee (name, birthday, email) values ('Alisa', '06.06.1994', 'ainder0@i2i.jp');
+--insert into employee (name, birthday, email) values ('Linet', '07.12.1993', 'lhellings1@disqus.com');
+--insert into employee (name, birthday, email) values ('Jehanna', '16.10.1999', 'jauletta2@dedecms.com');
+--insert into employee (name, birthday, email) values ('Alane', '13.10.1990', 'aokane3@zimbio.com');
+--insert into employee (name, birthday, email) values ('Des', '27.12.1997', 'dventris4@ucoz.com');
+--insert into employee (name, birthday, email) values ('Izaak', '04.11.1998', 'ijarrold5@si.edu');
+--insert into employee (name, birthday, email) values ('Suki', '13.10.1999', 'sredmire6@example.com');
+--insert into employee (name, birthday, email) values ('Maighdiln', '28.04.1999', 'mlayburn7@unesco.org');
+--insert into employee (name, birthday, email) values ('Kenneth', '02.01.1999', 'krishworth8@craigslist.org');
+--insert into employee (name, birthday, email) values ('Arri', '09.09.1994', 'awandless9@xing.com');
+--insert into employee (name, birthday, email) values ('Nefen', '05.07.1999', 'ndulakea@marketwatch.com');
+--insert into employee (name, birthday, email) values ('Annamarie', '01.05.1997', 'akhotlerb@indiatimes.com');
+--insert into employee (name, birthday, email) values ('Raquel', '18.01.1997', 'rbrunskillc@sourceforge.net');
+--insert into employee (name, birthday, email) values ('Aksel', '08.07.1993', 'aspragued@irs.gov');
+--insert into employee (name, birthday, email) values ('Orsola', '11.12.1993', 'ogrollee@blogspot.com');
+--insert into employee (name, birthday, email) values ('Rodrigo', '01.06.1993', 'rcampanellef@ca.gov');
+--insert into employee (name, birthday, email) values ('Jeanelle', '22.09.1990', 'jchandlarg@cnet.com');
+--insert into employee (name, birthday, email) values ('Meier', '13.11.1997', 'mmcardh@xing.com');
+--insert into employee (name, birthday, email) values ('Land', '20.05.1991', 'lmclindeni@youku.com');
+--insert into employee (name, birthday, email) values ('Wilhelmina', '03.07.1997', 'wstuttardj@thetimes.co.uk');
+--insert into employee (name, birthday, email) values ('Tuckie', '09.07.1999', 'tgunnyk@netlog.com');
+--insert into employee (name, birthday, email) values ('Bradford', '28.05.1998', 'bifel@amazon.de');
+--insert into employee (name, birthday, email) values ('Astra', '15.05.1999', 'adurnm@deviantart.com');
+--insert into employee (name, birthday, email) values ('Hynda', '30.07.1999', 'hfronczakn@bing.com');
+--insert into employee (name, birthday, email) values ('Cull', '26.01.1996', 'cantracko@businessweek.com');
+--insert into employee (name, birthday, email) values ('Oliviero', '26.08.1998', 'oloundp@wunderground.com');
+--insert into employee (name, birthday, email) values ('Avery', '11.04.1996', 'astuckowq@blogs.com');
+--insert into employee (name, birthday, email) values ('Stephani', '29.12.1996', 'slapslier@skype.com');
+--insert into employee (name, birthday, email) values ('Ernestine', '18.03.2000', 'eswaloughs@google.com.br');
+--insert into employee (name, birthday, email) values ('Herb', '08.02.1994', 'hbarfieldt@skype.com');
+--insert into employee (name, birthday, email) values ('Joann', '18.11.1999', 'jwishkaru@timesonline.co.uk');
+--insert into employee (name, birthday, email) values ('Mariele', '16.12.1997', 'mnisiusv@sciencedirect.com');
+--insert into employee (name, birthday, email) values ('Oralle', '01.09.1996', 'omamwellw@sakura.ne.jp');
+--insert into employee (name, birthday, email) values ('Myer', '06.02.1992', 'modyvoyx@npr.org');
+--insert into employee (name, birthday, email) values ('Kory', '18.12.1994', 'kindgey@histats.com');
+--insert into employee (name, birthday, email) values ('Alva', '11.08.1991', 'asallierez@google.co.uk');
+--insert into employee (name, birthday, email) values ('Nanette', '06.02.2000', 'ncostan10@cdc.gov');
+--insert into employee (name, birthday, email) values ('Debra', '02.07.1995', 'dgrece11@sogou.com');
+--insert into employee (name, birthday, email) values ('Rozina', '03.11.1994', 'rplews12@ovh.net');
+--insert into employee (name, birthday, email) values ('Fairleigh', '24.01.2000', 'fondrusek13@mit.edu');
+--insert into employee (name, birthday, email) values ('Jamaal', '11.08.1998', 'jspringett14@unc.edu');
+--insert into employee (name, birthday, email) values ('Kalil', '06.01.1992', 'khitcham15@list-manage.com');
+--insert into employee (name, birthday, email) values ('Happy', '31.08.1996', 'hhagstone16@hexun.com');
+
+--SELECT * FROM employee
+
+
+--UPDATE employee
+--SET name=' a ile baslayanlar '
+--WHERE name ILIKE 'a%'
+--RETURNING *;
+
+
+DELETE FROM employee 
+WHERE name ILIKE 'm%' or name ILIKE 'h%'
+RETURNING *;
+SELECT * FROM employee
