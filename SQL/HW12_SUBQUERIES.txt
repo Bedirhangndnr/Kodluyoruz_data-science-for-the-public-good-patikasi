@@ -27,10 +27,7 @@ WHERE replacement_cost=(
 );
 
 
---SELECT customer_id, COUNT(*) 
---FROM payment
---GROUP BY customer_id
---ORDER BY COUNT(*) DESC
+
 
 SELECT customer.first_name ,customer.last_name,payment.customer_id ,SUM(amount) FROM payment
 JOIN customer ON payment.customer_id = customer.customer_id
