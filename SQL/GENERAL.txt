@@ -1,0 +1,44 @@
+--film tablosundan 'K' karakteri ile başlayan en uzun ve replacenet_cost u en düşük 4 filmi sıralayınız.
+(SELECT * from film WHERE title LIKE 'K%' ORDER BY length DESC LIMIT 4)
+UNION
+(SELECT * from film ORDER BY replacement_cost LIMIT 4);
+
+--film tablosunda içerisinden en fazla sayıda film bulunduran rating kategorisi hangisidir?
+SELECT rating, COUNT(rating)  
+FROM film
+GROUP BY rating 
+ORDER BY COUNT(rating) DESC;
+
+--cutomer tablosunda en çok alışveriş yapan müşterinin adı nedir?
+-- SORUYU ANLAMADIM 
+
+
+--category tablosundan kategori isimlerini ve kategori başına düşen film sayılarını sıralayınız.
+SELECT category_id, COUNT(category_id)
+FROM film_category
+GROUP BY category_id;
+
+--select * from film_category;
+--select * from film;
+
+
+--film tablosunda isminde en az 4 adet 'e' veya 'E' karakteri bulunan kç tane film vardır?
+
+SELECT * 
+FROM film
+WHERE title ILIKE '%e%e%e%e%'
+
+
+
+
+
+
+
+
+
+--SELECT * FROM film
+--WHERE title LIKE 'K%'
+--UNION
+--SELECT * FROM film
+--ORDER BY replacement_cost
+--LIMIT 200
